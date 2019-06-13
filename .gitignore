@@ -1,0 +1,12 @@
+.idea/
+dist/
+node_modules/
+.DS_Store
+*.log
+*.swp
+*.tgz
+*.zip
+.webpack_cache/
+yarn.lock
+package-lock.json
+lib/

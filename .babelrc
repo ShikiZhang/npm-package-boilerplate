@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "Android >= 4.0",
+            "iOS >= 6",
+            "last 10 QQAndroid versions",
+            "last 10 UCAndroid versions"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 2
+      }
+    ],
+    "@babel/plugin-proposal-export-default-from"
+  ]
+}
